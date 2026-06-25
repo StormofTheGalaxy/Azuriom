@@ -44,6 +44,7 @@ class GameServiceProvider extends ServiceProvider
             'unturned' => SteamGame::forName('unturned', 'Unturned'),
             '7dtd' => SteamGame::forName('7dtd', '7 Days to Die', true),
             'hytale' => HytaleGame::class,
+            'arma3' => SteamGame::forName('arma3', 'Arma'),
         ]);
     }
 
